@@ -88,3 +88,25 @@ It replicates the *Leads* and *Campaigns* sections of the Linkbird.ai platform w
 ---
 
 ## 📂 Project Structure
+
+```plaintext
+LinkBird-AI/
+├── public/               # Static assets (images, icons, favicon, etc.)
+├── src/                  # Application source code (React components, pages, logic)
+├── supabase/             # Supabase configuration and database/auth scripts
+├── .env                  # Environment variables (API keys, DB config)
+├── .gitignore            # Git ignore rules
+├── README.md             # Project documentation
+├── bun.lockb             # Dependency lock file for Bun package manager
+├── components.json       # UI components configuration
+├── eslint.config.js      # ESLint configuration for linting and code style
+├── index.html            # Entry HTML file for Vite
+├── package-lock.json     # Lock file for npm dependencies
+├── package.json          # Project dependencies and scripts
+├── postcss.config.js     # PostCSS configuration (used with Tailwind CSS)
+├── tailwind.config.ts    # Tailwind CSS configuration
+├── tsconfig.app.json     # TypeScript config for the application
+├── tsconfig.json         # Root TypeScript configuration
+├── tsconfig.node.json    # TypeScript config for Node-related settings
+└── vite.config.ts        # Vite configuration file
+
